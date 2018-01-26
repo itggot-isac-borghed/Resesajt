@@ -1,0 +1,28 @@
+body {
+    height: 0,9vh;
+    width: 0,9vw;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 667px;
+    width: 375px;
+}
+
+header {
+    grid-row: span 1;
+    grid-column: span 6;
+    background-image: url("../img/Header_Background.jpg");
+    display: grid;
+    grid-template-columns: inherit;
+}
+
+h1 {
+    grid-column: 3/5;
+}
+
+button.menu {
+    grid-column: 1;
+    margin-bottom: auto;
+}
