@@ -14,11 +14,9 @@ body {
 header {
     grid-row: span 2;
     grid-column: span 6;
-    background-image: url("../img/Header_Background.jpg");
-    background-size: cover;
     display: grid;
     grid-template-columns: inherit;
-    color: white;
+    color: #000F1F;
 }
 
 h1 {
@@ -49,26 +47,10 @@ div.menu.show {
     display: block;
 }
 
-nav {
-    grid-column: span 6;
-    grid-row: span 1;
-    display: grid;
-    grid-template-columns: inherit;
-    border-top: solid #000F1F 1px;
-}
-
-nav > button {
-    grid-column: 3/5;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: #A33B34;
-    font-family: 'Roboto', sans-serif;
-    color: #000F1F;
-}
 
 article {
     grid-column: span 6;
-    grid-row: span 3;
+    grid-row: span 4;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);

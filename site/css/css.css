@@ -57,13 +57,15 @@ nav {
     border-top: solid #000F1F 1px;
 }
 
-nav > button {
+nav > a {
     grid-column: 3/5;
     margin-top: auto;
     margin-bottom: auto;
     background-color: #A33B34;
     font-family: 'Roboto', sans-serif;
     color: #000F1F;
+    text-align: center;
+
 }
 
 article {
