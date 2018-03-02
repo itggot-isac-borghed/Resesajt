@@ -43,10 +43,12 @@ div.menu {
     border-right: solid #000F1F 2px;
     color: #000F1F;
     font-family: 'Open Sans';
+    transition-duration: 2s;
 }
 
 div.menu.show {
     display: block;
+    transition-duration: 2s;
 }
 
 nav {
