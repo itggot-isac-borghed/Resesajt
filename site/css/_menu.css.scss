@@ -1,0 +1,20 @@
+i.material-icons{
+    margin-right: auto;
+    font-size: 48px;
+}
+
+div.menu{
+    width: 60vw;
+    height: 90vh;
+    background-color: #A33B34;
+    position: absolute;
+    margin: 0;
+    display: none;
+    border-right: solid #000F1F 2px;
+    color: #000F1F;
+    font-family: 'Open Sans';
+}
+
+div.menu.show{
+    display: block;
+}
