@@ -76,9 +76,27 @@ div.result{
 }
 
 div.result > div{
-    grid-row: 2/4;
-    grid-column: 2/4;
+    margin-top: 25px;
+    grid-row: 1/4;
+    grid-column: 2/5;
     background-color: #5C0D08;
+    margin-bottom: 10px;
+}
+
+div.result > h3{
+    grid-row: 1/2;
+    grid-column: 6/12;
+    color: #000F1F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+div.result > p{
+    grid-row: 2/3;
+    grid-column: 6/12;
+    color: #000F1F;
+    font-size: 12px;
+    font-family: 'Open Sans';
 }
 
 article.search > .footer{

@@ -1,7 +1,7 @@
 header{
     grid-row: span 2;
     grid-column: span 6;
-    background-image: url("../img/Header_Background.jpg");
+    background-image: url("../img/Header_Backgroundmobile.jpg");
     background-size: cover;
     display: grid;
     grid-template-columns: inherit;
@@ -76,4 +76,18 @@ article > .footer{
     grid-row: 12/13;
     background-color: #E6EDAC;
     border-top: solid #000F1F 1px;
+}
+
+@media only screen and (min-device-width: 400px) {
+    header{
+        background-image: url("../img/Header_Background.jpg")
+    }
+
+    article > .img1{
+        background-image: url("../img/img1comp.jpg");
+    }
+
+    article > .img4{
+        background-image: url("../img/img4comp.jpg")
+    }
 }
