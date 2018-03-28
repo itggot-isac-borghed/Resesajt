@@ -47,6 +47,9 @@ header {
   grid-template-columns: inherit;
   color: white; }
 
+header > h1 {
+  color: white; }
+
 nav {
   grid-column: span 6;
   grid-row: span 1;
